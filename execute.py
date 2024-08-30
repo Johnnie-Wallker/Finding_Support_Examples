@@ -14,7 +14,7 @@ config = {
     'initial_score_size': 20,
     'iter_num': 5,
     'beam_size': 6,
-    'substitution_size': 8,
+    'substitution_size': 2,
     'alpha': 1
 }
 
