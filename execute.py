@@ -4,7 +4,7 @@ from LLM import run_llm
 config = {
     'data': 'sst-5',
     'method': 'LENS',
-    'client': OpenAI(api_key="sk-668cbc8b98014bc29f460fe20ff7a225", base_url="https://api.deepseek.com"),
+    'client': OpenAI(api_key='your-api-key', base_url='your-url'),
     'model': 'deepseek-chat',
     'batch_size': 30,
     'valid_size': 100,
